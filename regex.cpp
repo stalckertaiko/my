@@ -19,6 +19,7 @@ int main()
     auto words_begin = 
         std::sregex_iterator(s.begin(), s.end(), word_regex);
     auto words_end = std::sregex_iterator();
+    int counter = 0;
  
     std::cout << "Found "
               << std::distance(words_begin, words_end)
