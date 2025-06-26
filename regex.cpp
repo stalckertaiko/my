@@ -34,6 +34,14 @@ int main()
             std::cout << "  " << match_str << '\n';
         }
     }
+
+   for (std::sregex_iterator i = words_begin; i != words_end; ++i) {
+        std::smatch match = *i;
+        std::string match_str = match.str();
+        if (match_str.size() > N) {
+            std::cout << "  " << match_str << '\n';
+        }
+    }
  
     std::regex long_word_regex("(\\w{7,})");
     std::string new_s = std::regex_replace(s, long_word_regex, "[$&]");
