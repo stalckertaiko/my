@@ -40,6 +40,9 @@ int main()
         std::string match_str = match.str();
         if (match_str.size() > N) {
             std::cout << "  " << match_str << '\n';
+            std::cout << "  " << match_str << '\n';
+            std::cout << "  " << match_str << '\n';
+            std::cout << "  " << match_str << '\n';
         }
     }
  
