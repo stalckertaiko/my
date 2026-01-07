@@ -42,7 +42,6 @@ int main()
             std::cout << "  " << match_str << '\n';
             std::cout << "  " << match_str << '\n';
             std::cout << "  " << match_str << '\n';
-            std::cout << "  " << match_str << '\n';
         }
     }
  
